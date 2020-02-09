@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* 
+html {
+    scroll-behavior: smooth;
+} */
+
+.container {
+    padding: 0 100px 0 100px;
+}
+
+nav ul,
+.main-info-section,
+.work-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #333c65;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: red;
+}
+
+header h1,
+header a,
+.text p,
+.about h1,
+.skills h1,
+.work h1,
+.contact h1 {
+    color: white;
+}
+
+li {
+    list-style: none;
+    margin-left: 50px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: .9rem;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50l);
+}
+
+.main-info-section {
+    height: cal(100vh - 81.6px);
+}
+
+.text {
+    margin-top: 120px;
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 3rem;
+    cursor: context-menu;
+}
+
+.text span {
+    display: inline-block
+}
+
+span:hover {
+    color: red;
+    transition: all .5s;
+}
+
+
+/* span.name {
+    color: pink;
+} */
+
+
+/* span.m-left {
+    margin-left: -10px;
+} */
+
+text.p {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: .8rem;
+}
+
+.text a {
+    padding: 12px 25px;
+    background-color: none;
+    border: 3px solid #ED5565;
+    font-size: 10px;
+    letter-spacing: 3px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    display: inline-block;
+}
+
+.text a:hover {
+    color: #ED5565;
+}
+
+
+/* .text a::before {
+    content: '';
+    background-color: #ED5565;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0px;
+    z-index: -1;
+    transition: .5s;
+} */
+
+.text a:hover::before {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile-image img {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.about {
+    height: 100vh;
+    /* margin-top: 100vh; */
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-left: 5px;
+}
+
+.skills {
+    height: 100vh;
+    /* margin-top: 100vh; */
+    margin-top: -100px;
+    margin-right: -5ex;
+}
+
+.work {
+    height: 100vh;
+    /* margin-top: 100vh; */
+    margin-top: -300px;
+    margin-right: 500px;
+}
+
+.contact {
+    height: 115vh;
+    /* margin-top: 100vh; */
+    margin-top: -300px;
+    margin-right: 500px;
+}
+
+.about h1,
+.work h1,
+.skills h1 {
+    font-size: 5rem;
+    z-index: 0;
+    opacity: .1;
+    margin-left: -10ex;
+}
+
+
+/* #skills {
+    font-size: 10px;
+} */
+
+.about-me-info {
+    max-width: 900px;
+    background-color: black;
+    box-shadow: 0 0 1.2rem;
+    padding: 50px;
+    position: relative;
+    top: -70;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.about-me-info p:nth-child(2),
+.about-me-info p:last-child {
+    margin-top: 30px;
+}
+
+.skills h1,
+.contact h1 {
+    text-align: right;
+    font-size: 10rem;
+    opacity: .1;
+}
+
+.skills-info {
+    font-size: 1.4rem;
+    color: #BEBEBE;
+}
+
+.html {
+    display: flex;
+}
+
+.bar-html,
+.bar-css,
+.bar-javascript {
+    width: calc(0-6px);
+}
+
+.work-category button {
+    text-transform: capitalize;
+    border: 3px solid #ED5565;
+    color: #ED5565;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-color: #252627;
+    outline: none;
+    cursor: pointer;
+}
+
+.about img {
+    width: 300px;
+    position: relative;
+    top: -300px;
+    left: calc(100% - 100%);
+    right: calc(100% -100px);
+    transform: translateX(cal(-100 + 100px));
+}
+
+.work-category button {
+    text-transform: capitalize;
+    border: 3px solid #ED5565;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #ED5565;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-color: #252627;
+    outline: none;
+    cursor: pointer;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 500px;
+    padding: 20px;
+    background-color: #252627;
+    border: 3px solid #707070;
+    margin: 20px 0;
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+font input::last-child {
+    width: 150px;
+    background-color: #ED5565;
+    border: none;
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    padding: 30px 0;
+    background-color: #252627;
+}
