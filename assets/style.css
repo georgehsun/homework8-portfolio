@@ -24,7 +24,7 @@ nav ul,
 }
 
 body {
-    background-color: #333c65;
+    background-color: black;
 }
 
 header {
@@ -32,6 +32,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 0;
+    background-color: #c35151;
 }
 
 .navbar {
@@ -156,8 +157,8 @@ h1 {
 .skills {
     height: 100vh;
     /* margin-top: 100vh; */
-    margin-top: -100px;
-    margin-right: -5ex;
+    color: white;
+    font-size: 30px;
 }
 
 .work {
@@ -172,16 +173,40 @@ h1 {
     /* margin-top: 100vh; */
     margin-top: -300px;
     margin-right: 500px;
+    color: #c35151;
 }
 
-.about h1,
-.work h1,
-.skills h1 {
-    font-size: 5rem;
-    z-index: 0;
-    opacity: .1;
-    margin-left: -10ex;
+.about h1 {
+    font-size: 3rem;
+    margin-right: 450px;
+    color: #c35151;
 }
+
+.work h1 {
+    font-size: 3rem;
+    z-index: 0;
+    /* opacity: .1; */
+    margin-left: -23ex;
+    color: #c35151;
+}
+
+
+/* .skills h1 { */
+
+
+/* font-size: 5rem; */
+
+
+/* z-index: 0; */
+
+
+/* opacity: .1; */
+
+
+/* margin-left: -40ex; */
+
+
+/* } */
 
 
 /* #skills {
@@ -205,29 +230,42 @@ h1 {
 .about-me-info p:nth-child(2),
 .about-me-info p:last-child {
     margin-top: 30px;
+    font-size: 30px;
 }
 
-.skills h1,
+.skills h1 {
+    text-align: left;
+    font-size: 3rem;
+    margin-right: 740px;
+    color: #c35151;
+}
+
 .contact h1 {
     text-align: right;
-    font-size: 10rem;
-    opacity: .1;
+    font-size: 3.5rem;
+    /* opacity: .1; */
+    margin-right: 600px;
+    color: #c35151;
 }
 
-.skills-info {
+
+/* .skills-info {
     font-size: 1.4rem;
     color: #BEBEBE;
-}
+} */
 
-.html {
+
+/* .html {
     display: flex;
-}
+} */
 
+
+/* 
 .bar-html,
 .bar-css,
 .bar-javascript {
     width: calc(0-6px);
-}
+} */
 
 .work-category button {
     text-transform: capitalize;
@@ -291,5 +329,9 @@ footer p {
     color: white;
     font-size: 1.2rem;
     padding: 30px 0;
-    background-color: #252627;
+    background-color: #c35151;
+}
+
+p {
+    justify-content: space-between;
 }
