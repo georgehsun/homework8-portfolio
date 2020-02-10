@@ -189,10 +189,11 @@ h1 {
 } */
 
 .about-me-info {
-    max-width: 900px;
+    /* max-width: 900px;
     background-color: black;
     box-shadow: 0 0 1.2rem;
-    padding: 50px;
+    padding: 50px; */
+    color: white;
     position: relative;
     top: -70;
     left: 50%;
