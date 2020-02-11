@@ -335,3 +335,7 @@ footer p {
 p {
     justify-content: space-between;
 }
+
+h4 {
+    text-align: center;
+}
