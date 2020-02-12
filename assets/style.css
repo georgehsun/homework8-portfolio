@@ -28,11 +28,15 @@ body {
 }
 
 header {
+    padding: 20px 0;
+    background-color: #c35151;
+}
+
+.containerHeader {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 0;
-    background-color: #c35151;
+    margin: 0 3%;
 }
 
 .navbar {

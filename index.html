@@ -17,19 +17,22 @@
 
     <div class="containernavbar">
         <header>
-            <div class="lgo">
-                <h1>George Sun</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about">About me</a></li>
-                    <li>
-                        <a href="#skills">Skills</a>
+            <div class="containerHeader">
+                <div class="lgo">
+                    <h1>George Sun</h1>
+                </div>
+                <nav>
+                    <ul>
                         <li>
-                            <a href="#work">My Work</a></li>
-                </ul>
-            </nav>
+                            <a href="#about">About me</a></li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                            <li>
+                                <a href="#work">My Work</a></li>
+                    </ul>
+                </nav>
+            </div>
+
         </header>
     </div>
 
@@ -142,17 +145,25 @@
 
     <div class="container work" id="work">
         <h1>Work</h1>
-        <div class="work-catergory">
-            <button id="designing" class="active">Casa-Cocktail Project</button>
-            <!-- <button id="Animation">Web Animation</button>
+        <div class="row">
+            <div class="work-catergory col-3">
+                <button id="designing" class="active">Casa-Cocktail Project</button>
+                <!-- <button id="Animation">Web Animation</button>
             <button id="Project">React project</button> -->
+            </div>
+            <div class="catergory-designing showCategory">
+                <a href="https://rimaodolski.github.io/Casa-Cocktail/"><img src="img/Witch-Heart-Halloween-Cocktail-The-Flavor-Bender-Featured-Image-SQ-3-500x375.jpg" alt="cocktail" width="200" height="200"></a>
+            </div>
+            <div class="work-catergory col-3">
+                <button id="designing" class="active">Casa-Cocktail Project</button>
+                <!-- <button id="Animation">Web Animation</button>
+            <button id="Project">React project</button> -->
+            </div>
+            <div class="catergory-designing showCategory">
+                <a href="https://rimaodolski.github.io/Casa-Cocktail/"><img src="img/Witch-Heart-Halloween-Cocktail-The-Flavor-Bender-Featured-Image-SQ-3-500x375.jpg" alt="cocktail" width="200" height="200"></a>
+            </div>
         </div>
-        <div class="catergory-designing showCategory">
-            <a href="https://rimaodolski.github.io/Casa-Cocktail/"><img src="img/Witch-Heart-Halloween-Cocktail-The-Flavor-Bender-Featured-Image-SQ-3-500x375.jpg" alt="cocktail" width="200" height="200"></a>
 
-
-
-        </div>
 
 
         <!-- <div class="catergory-designing hideCategory">
@@ -205,4 +216,4 @@
     <script src="js/script.js"></script>
 </body>
 
-</html>
+</html>`
